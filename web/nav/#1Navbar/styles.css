@@ -1,6 +1,5 @@
 @import url(./css/header.css);
 @import url(./css/mediaQuery.css);
-@import url(./css/card.css);
 /* * + * {
   margin: 1em 0 0;
 } */
@@ -26,55 +25,4 @@ body {
 }
 .main-s {
   overflow-y: auto;
-}
-
-/* BEreich FOTO NAME */
-.fotoName-s {
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-}
-.flex {
-  display: flex;
-  max-height: 220px;
-  padding: 10px 0;
-  align-items: center;
-  max-width: 80%;
-  width: 850px;
-}
-.fotoName-s div img {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-}
-.imgflex {
-  display: flex;
-  flex: 1;
-}
-.pp {
-  font-weight: 900;
-  font-size: 25px;
-  align-self: center;
-  flex: 1;
-}
-
-/* BEREICH ABOUTME UND COUNTER */
-
-.text {
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 50px;
-  background-color: white;
-}
-.counter {
-  width: 50%;
-  margin: 0 auto;
-  margin-top: 20px;
-  background-color: white;
-}
-
-footer {
-  font-size: 100px;
 }
